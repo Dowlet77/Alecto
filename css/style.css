@@ -1,0 +1,712 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background: url(../img/Photo2.svg) no-repeat;
+    padding-top: 57px;
+}
+
+
+header .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header .flex-container .menu li {
+    display: inline;
+    margin-right: 55px;
+}
+
+header .flex-container .menu a {
+    text-decoration: none;
+    color: white
+}
+
+.banner-text {
+    font-size: 60px;
+    font-family: "ProxymaNova";
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: Light;
+    line-height: 1;
+    text-align: center;
+    margin-top: 345px;
+    margin-bottom: 67px;
+    padding-right: 270px;
+    padding-left: 270px;
+}
+
+.banner-text span {
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1;
+}
+
+.flex-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-left {
+    padding-top: 300px;
+}
+
+.arrow-right {
+    padding-top: 300px;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 72px;
+
+}
+
+button {
+    background-color: rgba(108, 107, 107, 0);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    padding: 6px 30px;
+
+}
+
+._ {
+    text-align: center;
+    padding-bottom: 260px;
+}
+
+._ img {
+    margin-right: 10px;
+}
+
+._ img:last-child {
+    margin-right: 0px;
+}
+
+.Down-arrow {
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+main .button {
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+main button {
+    background-color: #2dddac;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color: #ffffff;
+    border-color: #2dddac;
+    padding: 6px 30px;
+}
+
+main .About_us {
+    font-size: 46px;
+    font-family: "Raleway";
+    color: rgb(87, 102, 113);
+    text-align: center;
+    padding-top: 100px;
+}
+
+main .layer {
+    text-align: center;
+
+}
+
+main .Nam_varius_accumsan_elementum__Aliquam {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(135, 148, 158);
+    line-height: 1.667;
+    text-align: center;
+    padding-top: 22px;
+
+}
+
+main .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 133px;
+
+}
+
+main .container .item {
+    padding-right: 80px;
+}
+
+main .container .item:last-child {
+    padding-right: 0px;
+}
+
+main .container .item .bg {
+    text-align: center;
+    background-color: #edeff1;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-left: 40px;
+}
+
+main .container .item .bg .img_1 {
+    width: 53px;
+    height: 53px;
+    margin-top: 60px;
+}
+
+main .container .item .bg .img_2 {
+    width: 47px;
+    height: 53px;
+    margin-top: 60px;
+}
+
+main .container .item .bg .img_3 {
+    width: 72px;
+    height: 53px;
+    margin-top: 60px;
+}
+
+main .container .item .bg .img_4 {
+    width: 66x;
+    height: 53px;
+    margin-top: 60px;
+}
+
+main .container .item .Lorem_ipsum {
+    font-size: 30px;
+    font-family: "Raleway";
+    color: rgb(0, 0, 0);
+    line-height: 3.2;
+    text-align: center;
+    padding-top: 38px;
+}
+
+main .container .item .Nam_varius {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(135, 148, 158);
+    line-height: 1.667;
+    text-align: center;
+}
+
+
+main .Reactangel {
+    background-color: #f9f9fa;
+    height: 705px;
+    width: 1690.67px;
+    padding-left: 850px;
+}
+
+main .Reactangel .Lorem_ipsum {
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(87, 102, 113);
+    line-height: 1.6;
+    text-align: left;
+    padding-top: 165px;
+
+}
+
+main .Reactangel .Lorem_ipsum_text {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(135, 148, 158);
+    line-height: 2;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main .Reactangel .button_2 {
+    text-align: left;
+    padding-bottom: 70px;
+}
+
+main .Reactangel .button_2 button {
+    background-color: #2dddac;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    color: #ffffff;
+    border-color: #2dddac;
+}
+
+main .Reactangel_2 {
+    height: 705px;
+    width: 1690.67px;
+    padding-left: 200px;
+}
+
+main .Reactangel_2 .Lorem_ipsum {
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(87, 102, 113);
+    line-height: 1.6;
+    text-align: left;
+    padding-top: 165px;
+}
+
+main .Reactangel_2 .Lorem_ipsum_text {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(135, 148, 158);
+    line-height: 2;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main .options {
+    background: url(../img/Photo.svg) no-repeat;
+}
+
+main .options .avatar {
+    text-align: center;
+    padding-top: 180px;
+}
+
+
+main .options .container_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .options .container_2 .left_arrow {
+    padding-bottom: 200px;
+}
+
+main .options .container_2 .right_arrow {
+    padding-bottom: 200px;
+}
+
+main .options .container_2 .text_banner {
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
+main .options .container_2 .text_banner .Alecto_lorem_ipsum_dolor_sit_amet__consectetur_ {
+    font-size: 30px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+main .options .container_2 .text_banner .Alecto_lorem_ipsum_dolor_sit_amet__consectetur_ span {
+    font-size: 30px;
+    font-family: "Raleway";
+    color: rgb(23, 218, 163);
+    text-align: left;
+}
+
+main .options .container_2 .text_banner .Adam_Czajkowski__CEO_Founder_at_symu_con {
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.302);
+    line-height: 5.333;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+main .options .m {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+main .options .m img {
+    margin-right: 10px;
+}
+
+main .options .m img:last-child {
+    margin-right: 0px;
+}
+
+main .Reactangel_3 {
+    background-color: #f9f9fa;
+}
+
+main .Reactangel_3 .Our_Services {
+    font-size: 46px;
+    font-family: "Raleway";
+    color: rgb(87, 102, 113);
+    text-align: center;
+    padding-top: 100px;
+}
+
+main .Reactangel_3 .Nam_varius_accumsan_elementum__Ali {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(135, 148, 158);
+    line-height: 1.667;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 150px;
+}
+
+main .Reactangel_3 .container_3 {
+    display: flex;
+    justify-content: center;
+}
+
+main .Reactangel_3 .container_3 .Item {
+    display: flex;
+    padding-right: 80px;
+}
+
+main .Reactangel_3 .container_3 .Item:last-child {
+    display: flex;
+    padding-right: 0px;
+}
+
+main .Reactangel_3 .container_3 .Item .flex {
+    padding-left: 50px;
+}
+
+main .Reactangel_3 .container_3 .Item .Portfolio {
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(87, 102, 113);
+    line-height: 1.6;
+    text-align: left;
+
+}
+
+main .Reactangel_3 .container_3 .Item .Lorem_Ipsum {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(135, 148, 158);
+    text-align: left;
+    line-height: 2.667;
+}
+
+main .Reactangel_3 .container_3 .Item .icon {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 94px;
+    height: 94px;
+}
+
+main .Reactangel_3 .container_3 .Item .icon img {
+    padding-top: 30px;
+}
+
+main .Reactangel_3 .container_4 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 155px;
+}
+
+main .Reactangel_3 .container_4 .Item_2 {
+    display: flex;
+    padding-right: 80px;
+}
+
+main .Reactangel_3 .container_4 .Item_2:last-child {
+    display: flex;
+    padding-right: 0px;
+}
+
+main .Reactangel_3 .container_4 .Item_2 .flex {
+    padding-left: 50px;
+}
+
+main .Reactangel_3 .container_4 .Item_2 .Development {
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(87, 102, 113);
+    line-height: 1.6;
+    text-align: left;
+
+}
+
+main .Reactangel_3 .container_4 .Item_2 .Lorem_Ipsum_2 {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(135, 148, 158);
+    text-align: left;
+    line-height: 2.667;
+}
+
+main .Reactangel_3 .container_4 .Item_2 .icon {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 94px;
+    height: 94px;
+
+}
+
+main .Reactangel_3 .container_4 .Item_2 .icon img {
+    padding-top: 30px;
+}
+
+main .Reactangel_4 .Meet_our_team {
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(87, 102, 113);
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 100px;
+}
+
+main .Reactangel_4 .Nam_varius_accumsan_elementum__Al {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(135, 148, 158);
+    line-height: 1.667;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 150px;
+}
+
+main .Reactangel_4 .container_5 {
+    display: flex;
+}
+
+main .Reactangel_4 .container_5 .item {
+    padding: 169.1px;
+}
+
+main .Reactangel_4 .container_5 .color_1 {
+    background-color: #e4e4e4;
+}
+
+main .Reactangel_4 .container_5 .color_2 {
+    background-color: #f9f9fa;
+}
+
+main .Reactangel_4 .container_5 .color_3 {
+    background-color: #efefef;
+}
+
+main .Reactangel_5 .Pricing {
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(87, 102, 113);
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 100px;
+}
+
+main .Reactangel_5 .Nam_varius_accumsan_elementum__Al {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(135, 148, 158);
+    line-height: 1.667;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 150px;
+}
+
+main .Reactangel_5 {
+    background-color: #f9f9fa;
+}
+
+main .Reactangel_5 .container_6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    padding-bottom: 110px;
+}
+
+main .Reactangel_5 .container_6 .item {
+    background-color: #ffffff;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+}
+
+main .Reactangel_5 .container_6 .item .price {
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(23, 218, 163);
+    line-height: 1.6;
+    text-align: left;
+    padding-top: 50px;
+}
+
+main .Reactangel_5 .container_6 .item .Lorem_ipsum_license {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgba(135, 148, 158, 0.451);
+    text-align: left;
+}
+
+main .Reactangel_5 .container_6 .item .Lorem {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(135, 148, 158);
+    line-height: 2.667;
+    text-align: left;
+}
+
+main .Reactangel_5 .container_6 .item .container_7 {
+    display: flex;
+    background-color: #17daa3;
+    justify-content: space-between;
+    border: solid 0.5px rgb(255, 255, 255);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main .Reactangel_5 .container_6 .item .container_7 .purchase {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 2.667;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 34px;
+
+}
+
+main .Reactangel_5 .container_6 .item .container_7 .icon {
+    padding-top: 15px;
+    padding-right: 34px;
+
+}
+
+main .Reactangel_5 .container_6 .item .pd {
+    padding-left: 35px;
+    padding-right: 85px;
+    padding-bottom: 70px;
+}
+
+main .Reactangel_5 .container_6 .item .pm {
+    padding-left: 35px;
+    padding-right: 85px;
+    padding-bottom: 70px;
+    padding-top: 55px;
+}
+
+main .Reactangel_5 .container_6 .item .px {
+    border: solid 1px #eeeff1;
+}
+
+main .Reactangel_6 {
+    display: flex;
+    padding-left: 56px;
+}
+
+main .Reactangel_6 .Item {
+    padding-right: 30px;
+}
+
+main .Reactangel_6 .Item .Lorem_ipsum {
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(87, 102, 113);
+    line-height: 1.6;
+    text-align: left;
+    padding-top: 165px;
+}
+
+main .Reactangel_6 .Lorem_ipsum_text {
+    font-size: 18px;
+    font-family: "ProximaNova";
+    color: rgb(135, 148, 158);
+    line-height: 2;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main .Reactangel_6 .Map {
+    padding-top: 126px;
+    padding-bottom: 110px;
+}
+
+main .Reactangel_7 {
+    background: url(../img/Try\ our\ template.svg) no-repeat;
+    background-position: center;
+}
+
+main .Reactangel_7 .Try_our_PSD_template_on_symu_co {
+    font-size: 60px;
+    font-family: "Raleway";
+    font-weight: 100px;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 265px;
+}
+
+main .Reactangel_7 .Try_our_PSD_template_on_symu_co span {
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    text-align: center;
+}
+
+main .Reactangel_7 .button_3 {
+    text-align: center;
+    padding-bottom: 265px;
+    padding-top: 100px;
+}
+
+footer {
+    background: url(../img/Vector\ Smart\ Object\ copy.svg) no-repeat;
+    background-position: top center;
+    width: 1690.5px;
+    height: 760px;
+}
+
+
+footer .ft_container .ft_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 260px;
+}
+
+footer .ft_container .ft_item .ft_logo_name a {
+    text-decoration: none;
+    color: #c3c9ce;
+}
+
+footer .ft_container .ft_item .ft_logo_name .ft_logo img {
+    padding-right: 20px;
+}
+
+footer .ft_container .ft_item .ft_logo_name {
+    display: flex;
+}
+
+footer .ft_container .ft_item .ft_menu ul li a {
+    text-decoration: none;
+    color: rgba(135, 148, 158, 0.451);
+    padding-right: 55px;
+}
+
+footer .ft_container .ft_item .ft_menu ul li {
+    display: inline;
+}
